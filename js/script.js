@@ -130,17 +130,17 @@ $(function(){
 			}
 		})();
 
-		var addProfilePic = function(src) {
-			$("#profile-pic").attr("src", src);
-		};
+		// var addProfilePic = function(src) {
+		// 	$("#profile-pic").attr("src", src);
+		// };
 
-		hasWebP().then(function() {
-			console.log("support webp");
-			addProfilePic("./img/person.webp");
-		}, function() {
-			console.log("nt support webp");
-			addProfilePic("./img/person.png");
-		});
+		// hasWebP().then(function() {
+		// 	console.log("support webp");
+		// 	addProfilePic("./img/person.webp");
+		// }, function() {
+		// 	console.log("nt support webp");
+		// 	addProfilePic("./img/person.png");
+		// });
 
 
 	});

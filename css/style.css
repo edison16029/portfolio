@@ -398,15 +398,20 @@ body.show-menu .menu-items > ul > li:nth-of-type(7) > a{
 .person-img{
 	position:absolute;
 	bottom:0;
-	top:-55px;
+	top:0;
 	left:0;
 	right:0;
 	text-align:center;
 	z-index:44;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .person-img > img{
-	width:auto;
-	height:100%;
+	width:50%;
+	height:60%;
+	border-radius: 50%;
 }
 .text-col-main{
 	overflow:auto;
@@ -1300,7 +1305,7 @@ textarea.form-control{
 
 .custom-icon {
   font-size: 36px;
-  color: #16a085;
+  color: #2196F3;
   padding-left: 10px;
 }
 .timeline-multiple-content{
